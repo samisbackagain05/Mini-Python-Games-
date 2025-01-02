@@ -3,6 +3,17 @@
 
 These are some mini python games that i have created during my free time and they are quite easy to set up. If you have any issues setting it up, you may enquire me on IG @eattohrepeat .
 
+## List of Games
+- [Country Guesser](./Python%20Games/Country%20Guesser%20Game/README.md)
+- [Hangman](./Python%20Games/Hangman/README.md)
+- [Snake Game](./Python%20Games/Snake%20Game/README.md)
+- [Tetris](./Python%20Games/Tetris/README.md)
+
+## Prerequisites
+You will need the follwing software:
+1. Visual Studio Code 
+2. Github Desktop
+
 ## Installation
 Clone the repository :
 
@@ -11,4 +22,7 @@ git clone https://github.com/samisbackagain05/Mini-Python-Games-
 cd  Python Games
 ```
 
+OR 
+
+You can copy my repository link from the website and paste the url in Github Desktop to clone it.
 
