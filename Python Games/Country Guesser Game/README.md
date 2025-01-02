@@ -6,7 +6,7 @@ This game tests the player's knowledge of countries around the world. It generat
 
 ## **Getting Started 💻**
 
-This GUI is designed for window OS users only. To refer to the mac OS version, please refer to [Speed Game mac OS](https://github.com/Python-World/python-mini-projects/tree/master/projects/Speed_Game/macOS)  
+This GUI is designed for window OS users only. To refer to the mac OS version, please refer to [Speed Game mac OS](https://github.com/Python-World/python-mini-projects/tree/master/projects/Speed_Game/macOS)  which was also my reference for this mini project of mine.
 
 1. install packages on vsc terminal as well as your laptop's powershell.
 ```shell
