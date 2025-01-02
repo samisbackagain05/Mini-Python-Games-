@@ -9,3 +9,7 @@ Snake is a classic arcade game in which the player controls a growing snake that
 3. You are also able to change how the snake looks, just download block images of the snake's head or body, download and put it inside the media folder and then replace the file path of the current one in the code.
 
 ## **Controls 🕹**
+- Up Key (Moves snake upwards)
+- Down Key (Moves snake downwards)
+- Left Key (Moves snake to the left)
+- Right Key (Moves snake to the right)
