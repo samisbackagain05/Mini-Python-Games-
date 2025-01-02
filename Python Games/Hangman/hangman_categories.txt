@@ -1,0 +1,547 @@
+ANIMALS
+dog
+cat
+lion
+tiger
+elephant
+bear
+zebra
+giraffe
+monkey
+rabbit
+fish
+shark
+whale
+dolphin
+horse
+cow
+goat
+sheep
+camel
+kangaroo
+panda
+koala
+turtle
+snake
+frog
+crocodile
+alligator
+butterfly
+bee
+ant
+mosquito
+cockroach
+spider
+rat
+mouse
+wolf
+fox
+deer
+cheetah
+leopard
+hippopotamus
+rhinoceros
+bat
+owl
+parrot
+eagle
+hawk
+falcon
+penguin
+ostrich
+peacock
+flamingo
+vulture
+swan
+dove
+chicken
+turkey
+duck
+goose
+seagull
+starfish
+octopus
+jellyfish
+lobster
+crab
+shrimp
+clam
+manta
+squid
+eel
+walrus
+seal
+otter
+beetle
+dragonfly
+grasshopper
+ladybug
+worm
+slug
+snail
+termite
+leech
+tick
+fly
+caterpillar
+firefly
+moth
+weasel
+ferret
+badger
+squirrel
+chipmunk
+hedgehog
+skunk
+moose
+buffalo
+bison
+gazelle
+antelope
+impala
+oryx
+kudu
+wildebeest
+jackal
+hyena
+mole
+porcupine
+armadillo
+raccoon
+
+COUNTRIES
+canada
+united states
+mexico
+brazil
+argentina
+chile
+colombia
+peru
+venezuela
+ecuador
+bolivia
+paraguay
+uruguay
+guyana
+suriname
+france
+germany
+spain
+italy
+portugal
+united kingdom
+ireland
+belgium
+netherlands
+luxembourg
+norway
+sweden
+denmark
+finland
+iceland
+switzerland
+austria
+poland
+czech republic
+slovakia
+hungary
+romania
+bulgaria
+greece
+turkey
+cyprus
+russia
+ukraine
+belarus
+kazakhstan
+uzbekistan
+turkmenistan
+armenia
+georgia
+azerbaijan
+china
+japan
+south korea
+north korea
+india
+pakistan
+sri lanka
+nepal
+bangladesh
+afghanistan
+vietnam
+thailand
+malaysia
+singapore
+indonesia
+philippines
+australia
+new zealand
+south africa
+egypt
+nigeria
+kenya
+uganda
+tanzania
+algeria
+morocco
+tunisia
+libya
+congo
+angola
+ethiopia
+sudan
+zambia
+zimbabwe
+botswana
+namibia
+malawi
+ghana
+ivory coast
+senegal
+cameroon
+chile
+peru
+guyana
+jamaica
+trinidad
+barbados
+bahamas
+grenada
+saint lucia
+
+FOOD
+apple
+banana
+cherry
+date
+elderberry
+fig
+grape
+kiwi
+lemon
+lime
+mango
+nectarine
+orange
+papaya
+peach
+pear
+pineapple
+plum
+pomegranate
+strawberry
+watermelon
+avocado
+carrot
+celery
+cucumber
+onion
+garlic
+spinach
+lettuce
+tomato
+potato
+broccoli
+cauliflower
+brussels sprout
+corn
+asparagus
+green bean
+peas
+chili
+cabbage
+eggplant
+mushroom
+radish
+turnip
+sweet potato
+zucchini
+beetroot
+artichoke
+pumpkin
+sweet corn
+okra
+bacon
+beef
+chicken
+turkey
+duck
+pork
+lamb
+sausage
+fish
+salmon
+tuna
+cod
+shrimp
+lobster
+clam
+oyster
+crab
+sardine
+mussels
+cheese
+milk
+yogurt
+butter
+cream
+cottage cheese
+cream cheese
+mozzarella
+cheddar
+brie
+blue cheese
+parmesan
+feta
+goat cheese
+ricotta
+chocolate
+vanilla
+strawberry
+mint
+cherry
+coffee
+tea
+juice
+wine
+beer
+whiskey
+vodka
+rum
+gin
+tequila
+cider
+soda
+water
+bread
+bagel
+croissant
+pita
+tortilla
+naan
+french fries
+pizza
+hamburger
+hot dog
+spaghetti
+pasta
+lasagna
+noodles
+sushi
+tacos
+burrito
+soup
+salad
+sandwich
+wrap
+chicken wings
+fried rice
+dumplings
+curry
+stew
+stir fry
+pie
+cake
+muffin
+cookie
+brownie
+cupcake
+ice cream
+pudding
+donut
+cheesecake
+popcorn
+
+VIDEO GAMES
+mario
+zelda
+pokemon
+minecraft
+fortnite
+call of duty
+pubg
+among us
+overwatch
+apex legends
+league of legends
+dota 2
+fifa
+nba 2k
+the witcher
+assassin's creed
+grand theft auto
+red dead redemption
+cyberpunk 2077
+fallout
+skyrim
+minecraft
+tetris
+candy crush
+angry birds
+pac-man
+street fighter
+tekken
+mortal kombat
+sonic
+crash bandicoot
+halo
+gears of war
+destiny
+rocket league
+warcraft
+world of warcraft
+diablo
+starcraft
+counter-strike
+half-life
+bioshock
+civilization
+the sims
+simcity
+world of tanks
+rainbow six siege
+fable
+kingdom hearts
+dark souls
+bloodborne
+spelunky
+cuphead
+journey
+tomb raider
+hitman
+uncharted
+god of war
+horizon zero dawn
+death stranding
+last of us
+minecraft
+fall guys
+terraria
+stardew valley
+no man’s sky
+subnautica
+gta v
+minecraft dungeons
+resident evil
+silent hill
+outlast
+alien: isolation
+littlebigplanet
+guitar hero
+wii sports
+mario kart
+crash team racing
+gran turismo
+forza horizon
+need for speed
+f1
+street fighter
+tekken
+super smash bros
+monster hunter
+tekken
+dark souls
+bloodborne
+the witcher
+far cry
+just cause
+the division
+call of duty
+battlefield
+doom
+wolfenstein
+quake
+
+ACTIVITIES
+swimming
+running
+cycling
+hiking
+yoga
+gym
+weightlifting
+skiing
+snowboarding
+dancing
+boxing
+martial arts
+jogging
+walking
+playing chess
+playing cards
+cooking
+baking
+cleaning
+gardening
+fishing
+camping
+traveling
+painting
+drawing
+singing
+playing guitar
+playing piano
+playing drums
+playing video games
+reading
+writing
+blogging
+photography
+watching movies
+watching tv
+going to the beach
+surfing
+kayaking
+boating
+canoeing
+rock climbing
+skiing
+snowshoeing
+watching sports
+attending concerts
+playing sports
+soccer
+basketball
+tennis
+volleyball
+baseball
+football
+rugby
+cricket
+hockey
+golf
+table tennis
+badminton
+archery
+riding horses
+visiting museums
+attending festivals
+going to parties
+listening to music
+playing board games
+hosting a barbecue
+building puzzles
+stargazing
+birdwatching
+collecting
+knitting
+crocheting
+sewing
+woodworking
+volunteering
+praying
+meditating
+relaxing
+learning new languages
+playing pool
+attending lectures
+exploring new cities
+eating out
+shopping
+driving
+visiting parks
+going to the gym
+watching youtube
+
