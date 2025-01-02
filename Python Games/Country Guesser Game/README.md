@@ -14,4 +14,5 @@ pip install -r ./requirements.txt
 ```
 (please paste the file path of where your 'requirements.txt' file is at)
 
-2. run main.py on vsc
+2. replace the file path of images in main,py with the file paths of where your images are loacted within your file directory.
+3. run main.py
