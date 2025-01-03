@@ -9,6 +9,7 @@ These are some mini python games that i have created during my free time and the
 - [Snake Game](./Python%20Games/Snake%20Game/README.md)
 - [Tetris](./Python%20Games/Tetris/README.md)
 - [TypeRacer](./Python%20Games/TypeRacer/README.md)
+- [Tic Tac Toe](./Python%20Games/Tic%20Tac%20Toe/README.md)
 
 ## Prerequisites
 You will need the follwing software:
