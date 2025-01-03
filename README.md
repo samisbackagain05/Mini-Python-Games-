@@ -27,3 +27,6 @@ OR
 
 You can copy my repository link from the website and paste the url in Github Desktop to clone it.
 
+
+If yall have any suggestions on how to improve any of the games, please DM me on IG as well!!
+Thank you 🫶
