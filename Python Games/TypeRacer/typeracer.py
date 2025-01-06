@@ -147,6 +147,8 @@ sentence_set = [
     "out of the city and jeered at him. 'Get out of here, baldy!' they said. 'Get out of here, "
     "baldy!' He turned around, looked at them, and called down a curse on them in the name of "
     "the Lord. Then two bears came out of the woods and mauled forty-two of the boys.",
+
+    # Add more sentences as needed
 ]
 
 # Select a random sentence from the sentence set
@@ -158,23 +160,23 @@ class TypingTestApp:
         self.root = root
         self.root.title("Type Racer Bible Version(Sam)")
         self.root.geometry("1000x800")
-        
+
         self.start_time = None
         self.completed_chars = 0
         self.countdown = 3
-        
+
         # Initialize with a random sentence
         self.sentence = get_random_sentence()
         self.words = len(self.sentence.split())
-        
+
         # Load the road and car images
         self.road_image_path = "C:/Users/samue/OneDrive/Documents/Python Games/TypeRacer/images/road.png"  # Replace with your road image path
         self.car_image_path = "C:/Users/samue/OneDrive/Documents/Python Games/TypeRacer/images/f1 car.png"    # Replace with your car image path
-        
+
         # Initialize the images with default sizes
         self.road_image = Image.open(self.road_image_path)
         self.car_image = Image.open(self.car_image_path)
-        
+
         # Set default scaling factor
         self.road_scale_factor = 2.5
         self.car_scale_factor = 0.2
@@ -182,14 +184,14 @@ class TypingTestApp:
         # Resize images based on scale factors
         self.road_image_resized = self.resize_image(self.road_image, self.road_scale_factor)
         self.car_image_resized = self.resize_image(self.car_image, self.car_scale_factor)
-        
+
         # Convert resized images for Tkinter compatibility
         self.road_image_tk = ImageTk.PhotoImage(self.road_image_resized)
         self.car_image_tk = ImageTk.PhotoImage(self.car_image_resized)
-        
+
         # Main layout
         self.create_widgets()
-        
+
     def create_widgets(self):
         # Configure grid to center elements in a fixed width area
         self.root.grid_rowconfigure(0, weight=1)
@@ -199,14 +201,14 @@ class TypingTestApp:
         self.root.grid_rowconfigure(4, weight=1)
         self.root.grid_rowconfigure(5, weight=1)
         self.root.grid_rowconfigure(6, weight=1)
-        
+
         # Only one column, set its width
         self.root.grid_columnconfigure(0, weight=0)
-        
+
         # Create a frame for centering the content
         frame = tk.Frame(self.root)
         frame.grid(row=0, column=0, columnspan=1, pady=20, padx=50)
-        
+
         # Sentence Text Area
         self.sentence_text = tk.Text(
             frame, wrap="word", font=("Helvetica", 14), height=10, width=70, bg="white", fg="black"
@@ -214,44 +216,44 @@ class TypingTestApp:
         self.sentence_text.insert(tk.END, self.sentence)
         self.sentence_text.config(state=tk.DISABLED)  # Make it read-only
         self.sentence_text.grid(row=0, column=0, pady=10)
-        
+
         # User Typing Area
         self.entry = tk.Text(frame, font=("Helvetica", 16), width=70, height=5)
         self.entry.grid(row=1, column=0, pady=10)
         self.entry.bind("<KeyRelease>", self.update_typing_progress)
-        
+
         # Feedback Area
         self.feedback_label = tk.Label(frame, text="", font=("Helvetica", 12), fg="red")
         self.feedback_label.grid(row=2, column=0, pady=10)
-        
+
         # Road and Car Canvas
         self.canvas = tk.Canvas(frame, width=700, height=100, bg="gray")
         self.canvas.grid(row=3, column=0, pady=10)
         self.canvas.create_image(0, -15, anchor="nw", image=self.road_image_tk)
         self.car = self.canvas.create_image(-10, 30, anchor="nw", image=self.car_image_tk)
-        
+
         # Results
         self.result_label = tk.Label(frame, text="", font=("Helvetica", 14), fg="blue")
         self.result_label.grid(row=4, column=0, pady=10)
-        
+
         # Start Button
         self.start_button = tk.Button(
             frame, text="Start Typing Test", font=("Helvetica", 14), command=self.start_test
         )
         self.start_button.grid(row=5, column=0, pady=10)
-        
+
         # Current WPM and Timer display
         self.wpm_label = tk.Label(
             frame, text="Current WPM: 0 | Time: 0s", font=("Helvetica", 24), anchor="center"
         )
         self.wpm_label.grid(row=6, column=0, pady=10)
-        
+
     def resize_image(self, image, scale_factor):
         width, height = image.size
         new_width = int(width * scale_factor)
         new_height = int(height * scale_factor)
         return image.resize((new_width, new_height), Image.LANCZOS)
-        
+
     def start_test(self):
         # Select a new random sentence
         self.sentence = get_random_sentence()
@@ -264,13 +266,13 @@ class TypingTestApp:
         self.completed_chars = 0
         self.countdown = 3
         self.move_car(0)
-        
+
         # Update the displayed sentence
         self.sentence_text.config(state=tk.NORMAL)
         self.sentence_text.delete("1.0", tk.END)
         self.sentence_text.insert(tk.END, self.sentence)
         self.sentence_text.config(state=tk.DISABLED)
-        
+
         self.countdown_timer()
 
     def countdown_timer(self):
@@ -282,24 +284,47 @@ class TypingTestApp:
             self.feedback_label.config(text="Go!")
             self.entry.focus()
             self.root.after(1000, lambda: self.feedback_label.config(text=""))
-    
+
     def update_typing_progress(self, event):
         typed_text = self.entry.get("1.0", "end-1c")
         self.completed_chars = len(typed_text)
-        correct_chars = sum(1 for i, c in enumerate(typed_text) if i < len(self.sentence) and c == self.sentence[i])
+        correct_chars = 0
+
+        for i, c in enumerate(typed_text):
+            if i < len(self.sentence):
+                if c == self.sentence[i]:
+                    correct_chars += 1
+
         progress = correct_chars / len(self.sentence)
         self.move_car(progress)
+
+        # Highlight the sentence with green for correct and red for incorrect
+        self.sentence_text.config(state=tk.NORMAL)
+        self.sentence_text.delete("1.0", tk.END)
+        for i, char in enumerate(self.sentence):
+            if i < len(typed_text):
+                if typed_text[i] == char:
+                    self.sentence_text.insert(tk.END, char, ("correct",))
+                else:
+                    self.sentence_text.insert(tk.END, char, ("incorrect",))
+            else:
+                self.sentence_text.insert(tk.END, char)
+        self.sentence_text.tag_configure("correct", foreground="green")
+        self.sentence_text.tag_configure("incorrect", foreground="red")
+        self.sentence_text.config(state=tk.DISABLED)
+
         elapsed_time = time() - self.start_time
         current_wpm = int(self.completed_chars / 5 / (elapsed_time / 60)) if elapsed_time > 0 else 0
         elapsed_time_seconds = int(elapsed_time)  # Get the time in seconds
         self.wpm_label.config(text=f"Current WPM: {current_wpm} | Time: {elapsed_time_seconds}s")
+
         if typed_text.strip() == self.sentence.strip():
             self.end_test()
-    
+
     def move_car(self, progress):
         x_pos = int(700 * progress)  # Adjust width to match canvas
         self.canvas.coords(self.car, x_pos, 30)
-    
+
     def end_test(self):
         self.entry.config(state=tk.DISABLED)
         end_time = time()
