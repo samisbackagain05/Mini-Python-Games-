@@ -6,6 +6,7 @@ These are some mini python games that i have created during my free time and the
 ## List of Games
 - [Country Guesser](./Python%20Games/Country%20Guesser%20Game/README.md)
 - [Hangman](./Python%20Games/Hangman/README.md)
+- [Pong Game](./Python%20Games/Pong%20Game/README.md)
 - [Snake Game](./Python%20Games/Snake%20Game/README.md)
 - [Tetris](./Python%20Games/Tetris/README.md)
 - [TypeRacer](./Python%20Games/TypeRacer/README.md)
