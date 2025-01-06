@@ -105,9 +105,16 @@ def restart_game():
     global snake, food, score, direction
     restart_button.destroy()
     canvas.delete(ALL)
+
+    # Re-add the background image
+    canvas.create_image(0, 0, image=background_image, anchor=NW, tag="background")
+
+    # Reset score and direction
     score = 0
     direction = "down"
     label.config(text="Score:{}".format(score))
+
+    # Reinitialize snake and food
     snake = Snake()
     food = Food()
     start_countdown()
