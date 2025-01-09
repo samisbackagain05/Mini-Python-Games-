@@ -29,8 +29,6 @@ alligator
 butterfly
 bee
 ant
-mosquito
-cockroach
 spider
 rat
 mouse
@@ -52,166 +50,61 @@ ostrich
 peacock
 flamingo
 vulture
-swan
-dove
-chicken
-turkey
-duck
-goose
-seagull
-starfish
-octopus
-jellyfish
-lobster
-crab
-shrimp
-clam
-manta
-squid
-eel
-walrus
-seal
-otter
-beetle
-dragonfly
-grasshopper
-ladybug
-worm
-slug
-snail
-termite
-leech
-tick
-fly
-caterpillar
-firefly
-moth
-weasel
-ferret
-badger
-squirrel
-chipmunk
-hedgehog
-skunk
-moose
-buffalo
-bison
-gazelle
-antelope
-impala
-oryx
-kudu
-wildebeest
-jackal
-hyena
-mole
-porcupine
-armadillo
-raccoon
-
-COUNTRIES
-canada
-united states
-mexico
-brazil
-argentina
-chile
-colombia
-peru
-venezuela
-ecuador
-bolivia
-paraguay
-uruguay
-guyana
-suriname
-france
-germany
-spain
-italy
-portugal
-united kingdom
-ireland
-belgium
-netherlands
-luxembourg
-norway
-sweden
-denmark
-finland
-iceland
-switzerland
-austria
-poland
-czech republic
-slovakia
-hungary
-romania
-bulgaria
-greece
-turkey
-cyprus
-russia
-ukraine
-belarus
-kazakhstan
-uzbekistan
-turkmenistan
-armenia
-georgia
-azerbaijan
-china
-japan
-south korea
-north korea
-india
-pakistan
-sri lanka
-nepal
-bangladesh
-afghanistan
-vietnam
-thailand
-malaysia
-singapore
-indonesia
-philippines
-australia
-new zealand
-south africa
-egypt
-nigeria
-kenya
-uganda
-tanzania
-algeria
-morocco
-tunisia
-libya
-congo
-angola
-ethiopia
-sudan
-zambia
-zimbabwe
-botswana
-namibia
-malawi
-ghana
-ivory coast
-senegal
-cameroon
-chile
-peru
-guyana
-jamaica
-trinidad
-barbados
-bahamas
-grenada
-saint lucia
 
 FOOD
+bread
+cheese
+milk
+yogurt
+butter
+cream
+chocolate
+vanilla
+coffee
+tea
+juice
+wine
+pizza
+hamburger
+hot dog
+spaghetti
+pasta
+lasagna
+noodles
+sushi
+tacos
+burrito
+soup
+salad
+sandwich
+wrap
+fried rice
+dumplings
+curry
+stew
+pie
+cake
+muffin
+cookie
+brownie
+cupcake
+ice cream
+pudding
+donut
+cheesecake
+popcorn
+chicken
+beef
+pork
+lamb
+sausage
+fish
+salmon
+shrimp
+lobster
+crab
+
+FRUITS
 apple
 banana
 cherry
@@ -245,299 +138,172 @@ tomato
 potato
 broccoli
 cauliflower
-brussels sprout
 corn
-asparagus
-green bean
 peas
 chili
 cabbage
 eggplant
-mushroom
 radish
-turnip
-sweet potato
-zucchini
 beetroot
-artichoke
-pumpkin
-sweet corn
 okra
-bacon
-beef
-chicken
-turkey
-duck
-pork
-lamb
-sausage
-fish
-salmon
-tuna
-cod
-shrimp
-lobster
-clam
-oyster
-crab
-sardine
-mussels
-cheese
-milk
-yogurt
-butter
-cream
-cottage cheese
-cream cheese
-mozzarella
-cheddar
-brie
-blue cheese
-parmesan
-feta
-goat cheese
-ricotta
-chocolate
-vanilla
-strawberry
-mint
-cherry
-coffee
-tea
-juice
-wine
-beer
-whiskey
-vodka
-rum
-gin
-tequila
-cider
-soda
-water
-bread
-bagel
-croissant
-pita
-tortilla
-naan
-french fries
-pizza
-hamburger
-hot dog
-spaghetti
-pasta
-lasagna
-noodles
-sushi
-tacos
-burrito
-soup
-salad
-sandwich
-wrap
-chicken wings
-fried rice
-dumplings
-curry
-stew
-stir fry
-pie
-cake
-muffin
-cookie
-brownie
-cupcake
-ice cream
-pudding
-donut
-cheesecake
-popcorn
+pumpkin
+sweet potato
+turnip
+asparagus
+zucchini
+artichoke
+brussels sprout
+green bean
 
-VIDEO GAMES
-mario
-zelda
-pokemon
+GAMES
 minecraft
 fortnite
-call of duty
-pubg
-among us
-overwatch
+pokemon
+mario
+zelda
 apex legends
 league of legends
-fifa
-the witcher
+call of duty
 assassin's creed
-grand theft auto
+fifa
 red dead redemption
+the witcher
+gta
 fallout
 skyrim
-minecraft
-tetris
-candy crush
-angry birds
-pac-man
-street fighter
-tekken
-mortal kombat
-sonic
-crash bandicoot
+cuphead
+overwatch
 halo
-gears of war
 destiny
 rocket league
-warcraft
-world of warcraft
 diablo
 starcraft
 counter-strike
-half-life
 bioshock
 civilization
 the sims
-simcity
-world of tanks
-rainbow six siege
-fable
-kingdom hearts
-dark souls
-bloodborne
-spelunky
-cuphead
-journey
 tomb raider
-hitman
 uncharted
 god of war
-horizon zero dawn
-death stranding
-last of us
-minecraft
+dark souls
+bloodborne
 fall guys
 terraria
 stardew valley
 no man’s sky
 subnautica
-gta v
-minecraft dungeons
-resident evil
-silent hill
-outlast
-alien: isolation
-littlebigplanet
-guitar hero
-wii sports
-mario kart
-crash team racing
-gran turismo
-forza horizon
-need for speed
-street fighter
-tekken
-super smash bros
 monster hunter
-tekken
-dark souls
-bloodborne
-the witcher
-far cry
-just cause
-the division
-call of duty
 battlefield
 doom
 wolfenstein
-quake
+guitar hero
+wii sports
+mario kart
+gran turismo
+forza horizon
+need for speed
+super smash bros
+tekken
+street fighter
 
-ACTIVITIES
-swimming
-running
-cycling
-hiking
-yoga
-gym
-weightlifting
-skiing
-snowboarding
-dancing
-boxing
-martial arts
-jogging
-walking
-playing chess
-playing cards
-cooking
-baking
-cleaning
-gardening
-fishing
-camping
-traveling
-painting
-drawing
-singing
-playing guitar
-playing piano
-playing drums
-playing video games
-reading
-writing
-blogging
-photography
-watching movies
-watching tv
-going to the beach
-surfing
-kayaking
-boating
-canoeing
-rock climbing
-skiing
-snowshoeing
-watching sports
-attending concerts
-playing sports
-soccer
-basketball
-tennis
-volleyball
-baseball
-football
-rugby
-cricket
-hockey
-golf
-table tennis
-badminton
-archery
-riding horses
-visiting museums
-attending festivals
-going to parties
-listening to music
-playing board games
-hosting a barbecue
-building puzzles
-stargazing
-birdwatching
-collecting
-knitting
-crocheting
-sewing
-woodworking
-volunteering
-praying
-meditating
-relaxing
-learning new languages
-playing pool
-attending lectures
-exploring new cities
-eating out
-shopping
-driving
-visiting parks
-going to the gym
-watching youtube
+COUNTRIES
+canada
+mexico
+brazil
+argentina
+chile
+colombia
+peru
+venezuela
+france
+germany
+spain
+italy
+portugal
+united kingdom
+ireland
+norway
+sweden
+denmark
+finland
+iceland
+switzerland
+austria
+poland
+russia
+china
+japan
+south korea
+north korea
+india
+vietnam
+thailand
+malaysia
+singapore
+indonesia
+philippines
+australia
+new zealand
+south africa
+egypt
+nigeria
+kenya
+algeria
+morocco
+tunisia
+ethiopia
+sudan
+zambia
+zimbabwe
+ghana
 
+SONGS
+rolling in the deep
+bohemian rhapsody
+someone like you
+hotel california
+stairway to heaven
+hey jude
+imagine
+let it be
+smells like teen spirit
+billie jean
+thriller
+beat it
+shake it off
+hello
+shape of you
+blinding lights
+perfect
+wonderwall
+yellow
+fix you
+closer
+believer
+thunder
+natural
+halo
+irreplaceable
+toxic
+stronger
+roar
+firework
+bad romance
+shallow
+poker face
+a thousand years
+love story
+all of me
+thinking out loud
+uptown funk
+happy
+radioactive
+demons
+creep
+paradise
+viva la vida
+time
+money
+yesterday
+blackbird
+my heart will go on
