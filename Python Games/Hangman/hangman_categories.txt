@@ -366,14 +366,11 @@ among us
 overwatch
 apex legends
 league of legends
-dota 2
 fifa
-nba 2k
 the witcher
 assassin's creed
 grand theft auto
 red dead redemption
-cyberpunk 2077
 fallout
 skyrim
 minecraft
@@ -436,7 +433,6 @@ crash team racing
 gran turismo
 forza horizon
 need for speed
-f1
 street fighter
 tekken
 super smash bros
